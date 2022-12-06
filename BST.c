@@ -202,7 +202,6 @@ struct Node* insert(struct Node* root,int data)
 void traverse(struct Node* root)
 //semua outputan yang ada pada BST
 {
-	//Inisiasi Node kedalam BST
 	printf("\n\nPreOrder traversal : "); PreOrder(root);
 	printf("\nInorder traversal  :   "); InOrder(root);
 	printf("\nPostOrder traversal:   "); PostOrder(root);
